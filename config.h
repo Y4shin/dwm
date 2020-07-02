@@ -212,7 +212,7 @@ static Key keys[] = {
 	{ MODKEY,			XK_F4,		spawn,		SHCMD("st -e pulsemixer; kill -44 $(pidof dwmblocks)") },
 	{ MODKEY,			XK_F5,		xrdb,		{.v = NULL } },
 	{ MODKEY,			XK_F6,		spawn,		SHCMD("setbg") },
-	{ MODKEY,			XK_F7,		spawn,		SHCMD("td-toggle") },
+	{ MODKEY,			XK_F7,		spawn,		SHCMD("passmenu") },
 	{ MODKEY,			XK_F8,		spawn,		SHCMD("notify-send \"Starting mailsync\";mailsync;notify-send \"Mailsync done\"") },
 	{ MODKEY,			XK_F9,		spawn,		SHCMD("dmenumount") },
 	{ MODKEY,			XK_F10,		spawn,		SHCMD("dmenuumount") },
